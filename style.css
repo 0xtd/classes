@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+    /* background: linear-gradient(45deg, rgba(11, 9, 9, 1) 1%, rgba(22, 21, 172, 1) 100%); */
+    background: radial-gradient(circle at 0% 2%, rgba(10, 16, 162, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+.heading {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    color: aqua;
+    font-family: 'Poppins', sans-serif;
+}
+.btn {
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem;
+    margin: 5rem;
+}
+button {
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    color: white;
+    background-color: yellow;
+    font-weight: 900;
+}
+button:hover {
+    background-color: white;
+    color: yellowgreen;
+}
+.signature {
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+}
+.signature h4 {
+    font-family: 'Poppins', sans-serif;
+}
